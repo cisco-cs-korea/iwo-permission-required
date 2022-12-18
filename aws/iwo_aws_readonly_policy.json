@@ -68,6 +68,13 @@
                 "s3-object-lambda:List*"
             ],
             "Resource": "*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "iam:GetUser"
+            ],
+            "Resource": "*"
         }
     ]
 }
